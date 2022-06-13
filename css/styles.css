@@ -742,7 +742,7 @@ body {
   border-radius: 4px;
 }
 
-/* ------modal window */
+/* ------------------------------modal window */
 .backdrop {
   position: fixed;
   width: 100vw;
@@ -793,4 +793,78 @@ body {
 
 .no-scroll {
   overflow: hidden;
+}
+
+/* ------------------------------modal form */
+.modal-form {
+  outline: 1px solid red;
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.form-fields {
+  outline: 1px solid teal;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields input {
+  outline: none;
+  height: 40px;
+  padding: 11px 12px;
+}
+
+.form-fields label {
+  margin-bottom: 4px;
+}
+
+.modal-form-label {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.01em;
+  color: var(--second-text-color);
+}
+
+.modal-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  padding-top: 40px;
+}
+
+.modal-form-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-text {
+  resize: none;
+  /* width: 100%; */
+}
+
+.modal-form-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+  background: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.modal-form-btn-text {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
 }

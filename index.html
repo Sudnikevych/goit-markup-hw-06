@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!----------------------header-->
+    <!-------------------------------------------------header-->
     <header class="header">
       <div class="container">
         <a class="header-logo link logo" href="/" lang="en"
@@ -68,9 +68,9 @@
       </div>
     </header>
 
-    <!---------------------------------main-->
+    <!---------------------------------------------------main-->
     <main>
-      <!-------------------------------hero-->
+      <!-------------------------------------------------hero-->
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
@@ -85,7 +85,7 @@
         </div>
       </section>
 
-      <!-------------------------------properties-->
+      <!------------------------------------------properties-->
       <section class="properties">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
@@ -122,7 +122,7 @@
         </div>
       </section>
 
-      <!-----------------------------------work-->
+      <!------------------------------------------------work-->
       <section class="work">
         <div class="container">
           <h2 class="work-title title">Чем мы занимаемся</h2>
@@ -161,7 +161,7 @@
         </div>
       </section>
 
-      <!---------------------------------------our team-->
+      <!--------------------------------------------our team-->
       <section class="team">
         <div class="container">
           <h2 class="our-team-title title">Наша команда</h2>
@@ -389,7 +389,7 @@
       </section>
     </main>
 
-    <!-----------------------------------------footer-->
+    <!------------------------------------------------footer-->
     <footer class="footer">
       <div class="container">
         <div class="footer-contacts">
@@ -478,10 +478,62 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <!-- ------------------------------------------modal form -->
+        <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form name="modal-form" class="modal-form">
+          <div class="form-fields">
+            <label for="modal-name" class="modal-form-label">Имя</label>
+            <input
+              class="modal-form-input"
+              type="text"
+              name="modal-name"
+              id="modal-name"
+              placeholder="Имя"
+              autofocus
+            />
+          </div>
+          <div class="form-fields">
+            <label for="modal-tel" class="modal-form-label">Телефон</label>
+            <input
+              class="modal-form-input"
+              type="tel"
+              name="modal-tel"
+              id="modal-tel"
+              placeholder="Телефон"
+            />
+          </div>
+          <div class="form-fields">
+            <label for="modal-email" class="modal-form-label">Почта</label>
+            <input
+              class="modal-form-input"
+              type="email"
+              name="modal-email"
+              id="modal-email"
+              placeholder="Почта"
+            />
+          </div>
+          <label for="modal-form-comment" class="modal-form-label"
+            >Комментарий</label
+          >
+          <textarea
+            name="modal-form-comment"
+            id="modal-form-comment"
+            class="modal-form-text"
+          ></textarea>
+
+          <input type="checkbox" name="policy" id="policy" />
+          <label for="policy" class="modal-form-policy"
+            >Соглашаюсь с рассылкой и принимаю Условия договора</label
+          >
+
+          <button type="submit" class="modal-form-btn">
+            <span class="modal-form-btn-text">Отправить</span>
+          </button>
+        </form>
       </div>
     </div>
 
-    <!------------------------------------- scripts -->
+    <!--------------------------------------------- scripts -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
