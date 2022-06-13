@@ -448,14 +448,26 @@
           </ul>
         </div>
 
-        <!--         
-          <form name="sub-form" class="footer-sub-form">
-            <div class="footer-sub">
-             <label for="user-email" class="footer-title-sub">Подпишитесь на рассылку</label>
-             <input class="footer-email-sub" type="email" name="email" id="user-email" placeholder="E-mail" autofocus/>
-             <button type="submit" class="footer-btn-sub"><span class="footer-button-text">Подписаться<span></button>
+        <form name="footer-form" class="footer-form">
+          <p class="footer-form-text">Подпишитесь на рассылку</p>
+          <label for="footer-form-email"></label>
+          <input
+            class="footer-form-email"
+            name="footer-form-email"
+            type="email"
+            placeholder="E-mail"
+            autocomplete="on"
+            id="footer-form-email"
+          />
+          <button type="submit" class="footer-btn-sub">
+            <div class="for-form">
+              <span class="footer-btn-text">Подписаться</span>
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
             </div>
-          </form> -->
+          </button>
+        </form>
       </div>
     </footer>
     <!-- --------------------------------------modal window -->
