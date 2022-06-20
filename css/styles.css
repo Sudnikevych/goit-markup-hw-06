@@ -576,6 +576,11 @@ body {
   margin-left: 93px;
 }
 
+.footer-form-sub {
+  display: flex;
+  align-items: center;
+}
+
 .footer-form-text {
   font-weight: 700;
   font-size: 14px;
@@ -598,44 +603,30 @@ body {
   color: var(--third-text-color);
 }
 
-.footer-form-email::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.for-form {
+.footer-btn-sub {
   display: flex;
-  padding-left: 29px;
-}
-
-.footer-btn-text {
+  align-items: center;
+  justify-content: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   color: var(--third-text-color);
-}
-
-.footer-btn-sub {
+  border: none;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  padding: 0;
+  padding: 8px 28px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-icon {
+  margin-left: 10px;
 }
 
 .footer-btn-sub:hover,
 .footer-btn-sub:focus {
   background: #188ce8;
-}
-
-.footer-form-icon {
-  margin-left: 10px;
-  align-items: center;
 }
 
 /* --------------------PORTFOLIO-------------------- */
@@ -825,7 +816,7 @@ body {
 }
 
 .modal-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .input-wrap {
@@ -877,7 +868,6 @@ body {
   resize: none;
   padding-left: 16px;
   padding-top: 12px;
-  margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
